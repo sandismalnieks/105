@@ -10,6 +10,7 @@ int main(){
 
 	int i, j, k; // ciklu mainīgie
 	int Temp; // īslaicīgais mainīgais
+	// vajag definēt max masīva izmēru - 20 zīmes
 	char mas3[]= "MASIVS"; // kārtojamo skaitļu masīvs
 	printf("[%s]\nChar\tHEX\n", mas3);
 
