@@ -19,8 +19,6 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> print (y)
 1.0965500000000001
 >>> v0 = 5 ; t = 1; y = v0*t - 0.5*g*t**2
->>> print 'Pēc %g sekundes bumba būs %.2f metru augstumā \n''% (t,y)
-SyntaxError: invalid syntax
 >>> 'Pēc %g sekundes bumba būs %.2f metru augstumā \n'% (t,y)
 'Pēc 1 sekundes bumba būs 0.09 metru augstumā \n'
 >>> type(t)
@@ -31,5 +29,3 @@ SyntaxError: invalid syntax
 1
 >>> print ('Pēc %g sekundes bumba būs %.2f metru augstumā \n' % (t,y))
 Pēc 1 sekundes bumba būs 0.09 metru augstumā 
-
->>> 
