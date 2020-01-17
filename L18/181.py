@@ -11,8 +11,6 @@ from time import sleep
 def f1(x):
 	return 2 * x
 
-# Definējam iterācijas kārtas skaitli
-k = ...
 # Definējam argumenta x robežas a, b:
 a = float(input("Ievadi argumenta intervāla apakšējo robežu: "))
 b = float(input("Ievadi argumenta intervāla augšējo robežu: "))
@@ -31,7 +29,7 @@ while(fabs(I2-I1)>eps):
 	h=(b-a)/n
 	I1=I2
 	I2=0
-	k=0
+	k=0 # Definējam iterācijas kārtas skaitli
 	while(k<n):
 		I2 = I2 + h * f1(a + (k + .5) * h)
 		k = k + 1
