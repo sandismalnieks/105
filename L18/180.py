@@ -9,7 +9,7 @@ from math import sin, fabs, sqrt
 from time import sleep
 
 def f1(x):
-	return sqrt (x*x)
+	return 2 * x
 
 # Definējam iterācijas kārtas skaitli
 k = ...
@@ -32,8 +32,9 @@ while(fabs(I2-I1)>eps):
 	I1=I2
 	I2=0
 	k=0
-	while(k>n):
+	while(k<n):
 		I2 = I2 + h * f1(a + (k + .5) * h)
+		k = k + 1
 
 print("Dotās funkcijas izteiksme: f(x) = 2x");
 print("Argumentu a un b vērtības: a = ",a,"b = ",b,"");
